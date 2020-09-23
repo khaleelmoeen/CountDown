@@ -48,9 +48,9 @@ h1{
 #setDate{ 
   height: 35px;
   width: 100%;
-  outline: none;
+
   border: 0;
-  border-radius: 3px;
+  border-radius: 15px;
   padding: 0 3px;
 }
 .dateInputContainer{
