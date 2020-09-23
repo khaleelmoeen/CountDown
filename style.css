@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poiret+One&family=Thasadith:ital,wght@0,400;1,700&display=swap');
+body{
+    background: url(jaymantri.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+.shadowBack{
+        width:550px;
+        height: 350px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), 10px 10px 10px  rgba(0, 0, 0, 0.1);
+        padding-bottom: 35px;
+        margin-top: -300px;
+}
+h1{
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: -350px;
+}
+.continer{
+    display: grid;
+    grid-template-columns: 25%  25%  25%  25%;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    margin-top: -50px;
+    gap: 4px;
+} 
+.text{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: auto;
+}
+.countdown-el span{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+}
+#setDate{ 
+  height: 35px;
+  width: 100%;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+.dateInputContainer{
+display:grid ;
+grid-template-columns: 100px 200px 100px;
+gap: 10px;
+align-items: center;
+padding: 10px;
+}
+button{
+	text-decoration: none;
+    border: none;
+    width: 99px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgba(149, 168, 128, 0.568);
+    outline: none;
+}
+button:hover{
+    background-color: rgba(28, 36, 29, 0.226);
+    transition: 400ms;
+}
