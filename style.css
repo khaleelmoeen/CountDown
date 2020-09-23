@@ -13,7 +13,7 @@ body{
     font-family: 'Poiret One', cursive;
 }
 .shadowBack{
-
+        
         width: 350px;
         height: auto;
         background-color: rgba(255, 255, 255, .2);
@@ -26,12 +26,13 @@ body{
 h1{
     font-weight: normal;
     font-size: 20px;
-    padding-left: 10px;
+
 }
 .continer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20%  20%  20%;
     justify-content: center;
-    gap: ;
+    ;
 } 
 .text{
     font-family: 'Poiret One', cursive;
@@ -42,7 +43,7 @@ h1{
 .countdown-el span{
     font-family: 'Thasadith', sans-serif;
     font-size: 12px;
-    padding-left: 10px;
+
 
 }
 .dateInputContainer{
@@ -61,15 +62,15 @@ font-size: smaller;
   width: 90%;
   outline: none;
   border: 0;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 button{
 	text-decoration: none;
     border: none;
-    width: 80px;
-    height: 40px;
-    border-radius: 15px;
+    width: 60px;
+    height: 35px;
+    border-radius: 10px;
     background-color: rgba(149, 168, 128, 0.568);
     outline: none;
 }
